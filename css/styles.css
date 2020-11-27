@@ -7,6 +7,34 @@
   background-color: #1c2431;
 }
 
+header {
+  padding: 40px;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav svg {
+  -webkit-box-flex: 3;
+      -ms-flex-positive: 3;
+          flex-grow: 3;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 40%;
+  list-style: none;
+  font-size: 1.5em;
+}
+
 * {
   font-family: "Raleway", sans-serif;
   font-weight: 400, 700;
@@ -33,5 +61,9 @@
 
 .article-title {
   font-weight: 700;
+}
+
+.article-content {
+  margin: 20px 20px;
 }
 /*# sourceMappingURL=styles.css.map */
