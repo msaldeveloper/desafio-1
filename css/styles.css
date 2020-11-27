@@ -67,7 +67,7 @@ header nav div ul li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid red;
+  border: 0px solid red;
   margin: 50px 50px;
   background-image: url(images/bg-curvy-mobile.svg);
 }
@@ -106,7 +106,7 @@ header nav div ul li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid red;
+  border: 0px solid red;
   margin: 50px 50px;
 }
 
@@ -123,11 +123,11 @@ header nav div ul li {
           align-items: center;
   padding: 30px 25px;
   width: 300px;
-  border: 1px solid green;
+  border: 0px solid green;
 }
 
 .feature-title {
-  border: 1px solid purple;
+  border: 0px solid purple;
   text-align: center;
   padding: 25px 0;
   font-weight: bold;
@@ -135,7 +135,7 @@ header nav div ul li {
 }
 
 .feature-content {
-  border: 1px solid orange;
+  border: 0px solid orange;
   text-align: center;
 }
 
@@ -151,7 +151,7 @@ header nav div ul li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid red;
+  border: 0px solid red;
   margin: 50px 50px;
 }
 
@@ -171,6 +171,12 @@ header nav div ul li {
 }
 
 /* ------------- */
+.quotes {
+  border: 1px solid red;
+  padding-left: 120px;
+  position: relative;
+}
+
 .comments {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -182,7 +188,7 @@ header nav div ul li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid red;
+  border: 0px solid red;
   margin: 50px 50px;
 }
 
@@ -194,7 +200,7 @@ header nav div ul li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 1px solid green;
+  border: 0px solid green;
   border-radius: 10px;
   max-width: 350px;
   margin: 20px 20px;
@@ -220,6 +226,7 @@ header nav div ul li {
 
 .pic-profile {
   background-color: #202a3c;
+  border: 0px solid #e5ee34;
   border-radius: 80px;
   width: 50px;
 }
