@@ -178,6 +178,7 @@ header nav div ul li {
 }
 
 .comments {
+  padding-bottom: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -248,7 +249,7 @@ header nav div ul li {
 
 .contactForm {
   position: absolute;
-  top: 3950px;
+  top: 4100px;
   left: 20px;
   margin: auto;
   background-color: #1c2431;
