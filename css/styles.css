@@ -12,35 +12,37 @@ img {
 }
 
 header {
-  padding: 30px;
+  background-color: #1c2431;
 }
 
-header nav {
+header nav div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-header nav #logo {
-  background: url(../images/logo.svg);
-  background-size: 93px 19px;
-  background-repeat: no-repeat;
-  -webkit-box-flex: 2;
-      -ms-flex-positive: 2;
-          flex-grow: 2;
+header nav div img {
+  margin: 15px;
+  width: 90px;
+  height: auto;
 }
 
-header nav ul {
+header nav div ul {
+  margin: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 2;
-      -ms-flex-positive: 2;
-          flex-grow: 2;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header nav div ul li {
   list-style: none;
+  padding: 5px;
 }
 
 * {
@@ -235,24 +237,30 @@ header nav ul {
 
 .pie-pagina img {
   background-color: #0b1523;
-  width: 150px;
+  width: 220px;
   height: auto;
   padding-left: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .pie-pagina section {
   background-color: #0b1523;
-  padding-left: 20px;
   text-align: left;
 }
 
-.pie-pagina section i {
-  padding: 2px;
+.pie-pagina section li {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  list-style: none;
   background-color: #0b1523;
+}
+
+.pie-pagina section i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 2px;
+  background-color: #0b1523;
 }
 
 .pie-pagina section div {
@@ -268,12 +276,6 @@ header nav ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-.pie-pagina section div li {
-  padding-left: 10px;
-  list-style: none;
-  background-color: #0b1523;
 }
 
 .pie-pagina .social {

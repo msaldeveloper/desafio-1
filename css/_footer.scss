@@ -5,20 +5,25 @@
     padding:200px 10px 10px 10px ;
     img{
         background-color:$footer-color;
-        width: 150px; 
+        width: 220px; 
         height: auto;
         padding-left:20px;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
     }
     section{
         background-color:$footer-color;
-        padding-left:20px;
         text-align: left;
-
+        li{
+            padding-bottom: 10px;    
+            padding-left: 10px;
+            list-style: none;
+            background-color:$footer-color;
+        }
         i{
+            display: flex;
             padding:2px;
             background-color:$footer-color;
-            display: flex;
+            
 
         }
 
@@ -29,11 +34,7 @@
                 display: flex;
                 flex-direction: column;
             }
-            li{
-                padding-left: 10px;
-                list-style: none;
-                background-color:$footer-color;
-            }
+            
         }
         
         
