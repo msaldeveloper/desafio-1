@@ -1,0 +1,33 @@
+@import "variables";
+
+.pie-pagina{
+    background-color:$footer-color;
+    padding:200px 10px 10px 10px ;
+    img{
+        width: 150px; 
+        height: auto;
+        padding-left:20px;
+        padding-bottom: 10px;
+    }
+    section{
+        padding-left:20px;
+        text-align: left;
+        div{
+            
+            padding: 20px;
+            .contacto{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        .social{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+
+   
+    
+
+}
