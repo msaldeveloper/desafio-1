@@ -5,4 +5,48 @@
           box-sizing: border-box;
   color: white;
 }
+
+.pie-pagina {
+  background-color: #0b1523;
+  padding: 200px 10px 10px 10px;
+}
+
+.pie-pagina img {
+  width: 150px;
+  height: auto;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.pie-pagina section {
+  padding-left: 20px;
+  text-align: left;
+}
+
+.pie-pagina section div {
+  padding: 20px;
+}
+
+.pie-pagina section div .contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.pie-pagina section .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=styles.css.map */
