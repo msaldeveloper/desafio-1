@@ -125,6 +125,14 @@ header nav ul {
   text-align: left;
 }
 
+.pie-pagina section i {
+  padding: 2px;
+  background-color: #0b1523;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .pie-pagina section div {
   background-color: #0b1523;
   padding: 20px;
@@ -141,6 +149,8 @@ header nav ul {
 }
 
 .pie-pagina section div li {
+  padding-left: 10px;
+  list-style: none;
   background-color: #0b1523;
 }
 
