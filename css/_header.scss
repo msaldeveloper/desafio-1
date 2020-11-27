@@ -1,0 +1,19 @@
+header{
+    padding: 40px;
+
+    nav{
+         display: flex;
+        svg{
+            flex-grow: 3;
+
+        }
+         ul{
+             display: flex;
+             justify-content: space-evenly;
+             width: 40%;
+             list-style: none;
+             font-size: 1.5em;
+         }
+    }
+
+}
