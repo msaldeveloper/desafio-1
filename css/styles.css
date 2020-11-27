@@ -242,7 +242,14 @@ header nav div ul li {
   background-color: #202a3c;
 }
 
+.principal {
+  position: static;
+}
+
 .contactForm {
+  position: absolute;
+  top: 3950px;
+  left: 20px;
   margin: auto;
   background-color: #1c2431;
   width: 90%;
@@ -276,7 +283,7 @@ header nav div ul li {
   text-align: center;
   color: gray;
   padding: auto;
-  border: 10px solid white;
+  border: 1px solid white;
   background-color: white;
   border-radius: 30px;
   width: 100%;
@@ -286,7 +293,7 @@ header nav div ul li {
 }
 
 .contactForm button {
-  border-color: #339ecc;
+  border: 1px #339ecc;
   padding: 10px;
   background-color: #339ecc;
   border-radius: 30px;
@@ -298,7 +305,7 @@ header nav div ul li {
 
 .pie-pagina {
   background-color: #0b1523;
-  padding: 200px 10px 10px 10px;
+  padding: 300px 10px 10px 10px;
 }
 
 .pie-pagina img {

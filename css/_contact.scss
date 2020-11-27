@@ -1,8 +1,13 @@
 @import "variables";
 
-
+.principal{
+    position: static;
+}
 
 .contactForm{
+    position: absolute;
+    top: 3950px;
+    left: 20px;
     margin: auto;
     background-color:$Nav-email ;
     width: 90%;
@@ -21,7 +26,7 @@
         text-align: center;
         color: gray;
         padding: auto;
-        border:10px solid white;
+        border:1px solid white;
         background-color: white;
         border-radius: 30px;
         width: 100%;
@@ -31,7 +36,7 @@
         
     }
     button {
-        border-color: hsl(198, 60%, 50%) ;
+        border:1px hsl(198, 60%, 50%);
         padding: 10px;
         background-color: hsl(198, 60%, 50%);
         border-radius: 30px;
