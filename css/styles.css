@@ -12,31 +12,37 @@ img {
 }
 
 header {
-  padding: 40px;
+  background-color: #1c2431;
 }
 
-header nav {
+header nav div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-header nav svg {
-  -webkit-box-flex: 3;
-      -ms-flex-positive: 3;
-          flex-grow: 3;
+header nav div img {
+  margin: 15px;
+  width: 90px;
+  height: 30px;
 }
 
-header nav ul {
+header nav div ul {
+  margin: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  width: 40%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header nav div ul li {
   list-style: none;
-  font-size: 1.5em;
+  padding: 5px;
 }
 
 * {

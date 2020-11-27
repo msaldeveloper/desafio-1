@@ -1,21 +1,31 @@
-header{
-    padding: 30px;
+@import "variables";
 
-    nav{
-         display: flex;
-        #logo{
-            background: url(../images/logo.svg);
-            background-size: 93px 19px;
-            background-repeat: no-repeat;
-            flex-grow: 2;
+header {
+    background-color: $Nav-email;
 
+    nav {
+        div {
+            display: flex;
+            justify-content: space-between;
+            img {
+                margin: 15px;
+                width: 90px;
+                height: 30px;
+            }
+
+            ul {
+                margin: 15px;
+                display: flex;
+                justify-content: flex-end;
+
+                li {
+                    list-style: none;
+                    padding: 5px;
+
+                }
+
+            }
         }
-         ul{
-             display: flex;
-             flex-grow: 2;
-             justify-content: space-evenly;
-             list-style: none;
-         }
     }
 
 }
