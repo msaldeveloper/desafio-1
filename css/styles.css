@@ -230,6 +230,58 @@ header nav div ul li {
   padding-left: 15px;
 }
 
+.contactForm {
+  margin: auto;
+  background-color: #1c2431;
+  width: 90%;
+  border-radius: 5%;
+  border: 2px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.contactForm div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12px;
+}
+
+.contactForm input {
+  text-align: center;
+  color: gray;
+  padding: auto;
+  background-color: white;
+  border-radius: 30px;
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+  margin: 0 0 20px 0;
+}
+
+.contactForm button {
+  padding: 10px;
+  background-color: #339ecc;
+  border-radius: 30px;
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+  margin: 0 0 50px 0;
+}
+
 .pie-pagina {
   background-color: #0b1523;
   padding: 200px 10px 10px 10px;

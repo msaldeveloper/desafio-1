@@ -1,0 +1,42 @@
+@import "variables";
+
+
+
+.contactForm{
+    margin: auto;
+    background-color:$Nav-email ;
+    width: 90%;
+    border-radius: 5%;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 12px;
+    }
+    input{
+        text-align: center;
+        color: gray;
+        padding: auto;
+        background-color: white;
+        border-radius: 30px;
+        width: 100%;
+        height: 60px;
+        font-size: 20px;
+        margin: 0 0 20px 0;
+        
+    }
+    button {
+        
+        padding: 10px;
+        background-color: hsl(198, 60%, 50%);
+        border-radius: 30px;
+        width: 100%;
+        height: 60px;
+        font-size: 20px;
+        margin: 0 0 50px 0;
+    } 
+}
