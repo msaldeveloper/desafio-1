@@ -3,6 +3,10 @@
     font-weight: 400, 700;
 }
 
+.img {
+    max-width: 100%;
+}
+
 .features {
     display: flex;
     flex-direction: column;
@@ -20,9 +24,24 @@
 }
 
 .article-content {
-    margin: 20px 20px
+    display: flex;
+    flex-direction: column;
+    border: 0px solid red;
+    border-radius: 10px;
+    width: 350px;
+    margin: 20px 20px;
+    background-color: hsl(219, 30%, 18%);
+    padding: 30px 20px;
 }
 
-.img {
-    max-width: 100%;
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.pic-profile {
+    border-radius: 80px;
+    width: 50px;
 }

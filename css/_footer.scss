@@ -4,30 +4,51 @@
     background-color:$footer-color;
     padding:200px 10px 10px 10px ;
     img{
+        background-color:$footer-color;
         width: 150px; 
         height: auto;
         padding-left:20px;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
     }
     section{
+        background-color:$footer-color;
         padding-left:20px;
         text-align: left;
+
+        i{
+            padding:2px;
+            background-color:$footer-color;
+            display: flex;
+
+        }
+
         div{
-            
+            background-color:$footer-color;
             padding: 20px;
             .contacto{
                 display: flex;
                 flex-direction: column;
             }
+            li{
+                padding-left: 10px;
+                list-style: none;
+                background-color:$footer-color;
+            }
         }
-        .social{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
+        
+        
     }
 
-   
+    .social{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        i{
+            padding:10px;
+            background-color:$footer-color;
+            
+        }
+    }
     
 
 }

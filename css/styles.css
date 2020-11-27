@@ -44,6 +44,10 @@ header nav ul {
   font-weight: 400, 700;
 }
 
+.img {
+  max-width: 100%;
+}
+
 .features {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -68,11 +72,38 @@ header nav ul {
 }
 
 .article-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 0px solid red;
+  border-radius: 10px;
+  width: 350px;
   margin: 20px 20px;
+  background-color: #202a3c;
+  padding: 30px 20px;
 }
 
-.img {
-  max-width: 100%;
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 0;
+}
+
+.pic-profile {
+  border-radius: 80px;
+  width: 50px;
 }
 
 .pie-pagina {
@@ -81,18 +112,29 @@ header nav ul {
 }
 
 .pie-pagina img {
+  background-color: #0b1523;
   width: 150px;
   height: auto;
   padding-left: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .pie-pagina section {
+  background-color: #0b1523;
   padding-left: 20px;
   text-align: left;
 }
 
+.pie-pagina section i {
+  padding: 2px;
+  background-color: #0b1523;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .pie-pagina section div {
+  background-color: #0b1523;
   padding: 20px;
 }
 
@@ -106,16 +148,24 @@ header nav ul {
           flex-direction: column;
 }
 
-.pie-pagina section .social {
+.pie-pagina section div li {
+  padding-left: 10px;
+  list-style: none;
+  background-color: #0b1523;
+}
+
+.pie-pagina .social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 10px;
+}
+
+.pie-pagina .social i {
+  padding: 10px;
+  background-color: #0b1523;
 }
 /*# sourceMappingURL=styles.css.map */
