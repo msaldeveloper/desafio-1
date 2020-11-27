@@ -1,47 +1,141 @@
 * {
     font-family: $font-openSans;
-    font-weight: 400, 700;
+    /* ont-weight: 400, 700; */
+    background-color: hsl(218, 28%, 13%);
 }
 
 .img {
     max-width: 100%;
 }
 
+/* ------------- */
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+    margin: 50px 50px;
+    background-image: url(images/bg-curvy-mobile.svg);
+}
+
+.img-main {
+    background-image: url(images/bg-curvy-mobile.svg);
+
+}
+
+.intro h2 {
+    padding: 50px 0px 25px 0px;
+}
+
+.intro h3 {
+    padding: 0px 0px 50px 0px;
+}
+
+.intro button {
+    border: 0px solid blue;
+    background-color: hsl(198, 60%, 50%);
+    border-radius: 30px;
+    width: 350px;
+    height: 60px;
+    font-size: 20px;
+    margin: 0 0 50px 0;
+} 
+
+/* ------------- */
+
 .features {
     display: flex;
     flex-direction: column;
-    align-items: unset;
+    align-items: center;
+    border: 1px solid red;
     margin: 50px 50px;
 }
 
 .feature-article {
-    padding: 30px 25px;
-    width: 300px;
-}
-
-.article-title {
-    font-weight: 700;
-}
-
-.article-content {
     display: flex;
     flex-direction: column;
-    border: 0px solid red;
+    align-items: center;
+    padding: 30px 25px;
+    width: 300px;
+    border: 1px solid green;
+}
+
+.feature-title {
+    border: 1px solid purple;
+    /* display: flex;
+    align-content: center; */
+    padding: 25px 0;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.feature-content {
+    border: 1px solid orange;
+    justify-content: center;
+}
+/* ------------- */
+.main-feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+    margin: 50px 50px;
+}
+
+.main-feature h2 {
+    padding: 30px 0;
+}
+
+.main-feature h3 {
+    padding: 30px 0;
+}
+
+.main-feature a {
+    color: hsl(176, 68%, 64%);
+}
+
+/* ------------- */
+.quotes {
+    
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+    margin: 50px 50px;
+}
+
+.comments-item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid green;
     border-radius: 10px;
-    width: 350px;
+    max-width: 350px;
     margin: 20px 20px;
     background-color: hsl(219, 30%, 18%);
     padding: 30px 20px;
 }
 
-.profile {
+.container-id {
     display: flex;
     flex-direction: row;
     align-items: center;
+    border: 0px solid red;
     padding: 15px 0;
+    background-color: transparent;
 }
 
 .pic-profile {
+    background-color: hsl(219, 30%, 18%);
     border-radius: 80px;
     width: 50px;
 }
+
+.name {
+    border: 0px solid rgb(229, 238, 52);
+    background-color: hsl(219, 30%, 18%);
+    padding-left: 15px;
+}
+
