@@ -6,13 +6,13 @@
 .features {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: unset;
     margin: 50px 50px;
 }
 
 .feature-article {
     padding: 30px 25px;
-    width: 60%;
+    width: 300px;
 }
 
 .article-title {
@@ -21,4 +21,8 @@
 
 .article-content {
     margin: 20px 20px
+}
+
+.img {
+    max-width: 100%;
 }

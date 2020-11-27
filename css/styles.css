@@ -7,6 +7,10 @@
   background-color: #1c2431;
 }
 
+img {
+  max-width: 100%;
+}
+
 header {
   padding: 40px;
 }
@@ -48,15 +52,15 @@ header nav ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: unset;
+      -ms-flex-align: unset;
+          align-items: unset;
   margin: 50px 50px;
 }
 
 .feature-article {
   padding: 30px 25px;
-  width: 60%;
+  width: 300px;
 }
 
 .article-title {
@@ -65,6 +69,10 @@ header nav ul {
 
 .article-content {
   margin: 20px 20px;
+}
+
+.img {
+  max-width: 100%;
 }
 
 .pie-pagina {
