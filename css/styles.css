@@ -276,6 +276,7 @@ header nav div ul li {
   text-align: center;
   color: gray;
   padding: auto;
+  border: 10px solid white;
   background-color: white;
   border-radius: 30px;
   width: 100%;
@@ -285,6 +286,7 @@ header nav div ul li {
 }
 
 .contactForm button {
+  border-color: #339ecc;
   padding: 10px;
   background-color: #339ecc;
   border-radius: 30px;
