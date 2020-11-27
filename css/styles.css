@@ -1,33 +1,8 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: white;
-}
-
-.navegador {
-  background-color: #1c2431;
-}
-
-.principal {
-  background-color: #181f2a;
-}
-
-.principal .tamaño-img img {
-  width: 40vh;
-}
-
-.pie-pagina {
-  background-color: #0b1523;
-}
-
-.commentarios {
-  background-color: #202a3c;
-}
-
-.contactForm {
-  background-color: #1c2431;
 }
 /*# sourceMappingURL=styles.css.map */

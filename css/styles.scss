@@ -1,29 +1,5 @@
-$Nav-email:hsl(217, 28%, 15%);
-$main-color:hsl(218, 28%, 13%);
-$footer-color:hsl(216, 53%, 9%);
-$testimonials:hsl(219, 30%, 18%);
-
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    color: white;
-}
-.navegador{
-    background-color:$Nav-email;
-}
-.principal{
-    background-color:$main-color;
-    .tamaño-img img{
-        width: 40vh;
-    }
-}
-.pie-pagina{
-    background-color:$footer-color;
-}
-.commentarios{
-    background-color:$testimonials;
-}
-.contactForm{
-    background-color: $Nav-email;
-}
+@import "variables";
+@import "base";
+@import "header";
+@import "main";
+@import "footer";
