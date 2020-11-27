@@ -27,7 +27,7 @@ header nav div {
 header nav div img {
   margin: 15px;
   width: 90px;
-  height: 30px;
+  height: auto;
 }
 
 header nav div ul {
@@ -119,7 +119,7 @@ header nav div ul li {
 
 .pie-pagina img {
   background-color: #0b1523;
-  width: 150px;
+  width: 220px;
   height: auto;
   padding-left: 20px;
   padding-bottom: 10px;
