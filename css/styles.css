@@ -131,12 +131,19 @@ header nav div ul li {
   text-align: left;
 }
 
-.pie-pagina section i {
-  padding: 2px;
+.pie-pagina section li {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  list-style: none;
   background-color: #0b1523;
+}
+
+.pie-pagina section i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 2px;
+  background-color: #0b1523;
 }
 
 .pie-pagina section div {
@@ -152,12 +159,6 @@ header nav div ul li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-.pie-pagina section div li {
-  padding-left: 10px;
-  list-style: none;
-  background-color: #0b1523;
 }
 
 .pie-pagina .social {
