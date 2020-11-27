@@ -62,16 +62,15 @@
 
 .feature-title {
     border: 1px solid purple;
-    /* display: flex;
-    align-content: center; */
+    text-align: center;
     padding: 25px 0;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 25px;
 }
 
 .feature-content {
     border: 1px solid orange;
-    justify-content: center;
+    text-align: center;
 }
 /* ------------- */
 .main-feature {
@@ -84,14 +83,17 @@
 
 .main-feature h2 {
     padding: 30px 0;
+    text-align: center;
 }
 
 .main-feature h3 {
     padding: 30px 0;
+    text-align: center;
 }
 
 .main-feature a {
     color: hsl(176, 68%, 64%);
+    font-weight: bold;
 }
 
 /* ------------- */
@@ -137,5 +139,10 @@
     border: 0px solid rgb(229, 238, 52);
     background-color: hsl(219, 30%, 18%);
     padding-left: 15px;
+}
+
+.name h5 {
+    border: 0px solid rgb(229, 238, 52);
+    background-color: hsl(219, 30%, 18%);
 }
 

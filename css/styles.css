@@ -4,7 +4,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: white;
-  background-color: #1c2431;
+  /* background-color: hsl(217, 28%, 15%); */
 }
 
 img {
@@ -46,7 +46,7 @@ header nav div ul li {
 }
 
 * {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   /* ont-weight: 400, 700; */
   background-color: #181f2a;
 }
@@ -128,18 +128,15 @@ header nav div ul li {
 
 .feature-title {
   border: 1px solid purple;
-  /* display: flex;
-    align-content: center; */
+  text-align: center;
   padding: 25px 0;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 25px;
 }
 
 .feature-content {
   border: 1px solid orange;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  text-align: center;
 }
 
 /* ------------- */
@@ -160,14 +157,17 @@ header nav div ul li {
 
 .main-feature h2 {
   padding: 30px 0;
+  text-align: center;
 }
 
 .main-feature h3 {
   padding: 30px 0;
+  text-align: center;
 }
 
 .main-feature a {
   color: #65e2d9;
+  font-weight: bold;
 }
 
 /* ------------- */
@@ -228,6 +228,11 @@ header nav div ul li {
   border: 0px solid #e5ee34;
   background-color: #202a3c;
   padding-left: 15px;
+}
+
+.name h5 {
+  border: 0px solid #e5ee34;
+  background-color: #202a3c;
 }
 
 .contactForm {
