@@ -15,7 +15,16 @@ header {
   background-color: #1c2431;
 }
 
-header nav div {
+header img .mountains {
+  position: static;
+}
+
+header img .mountains img .ilustracion {
+  position: relative;
+  top: 1px;
+}
+
+header div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,13 +33,13 @@ header nav div {
           justify-content: space-between;
 }
 
-header nav div img {
+header div img {
   margin: 15px;
   width: 90px;
   height: auto;
 }
 
-header nav div ul {
+header div ul {
   margin: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -40,7 +49,7 @@ header nav div ul {
           justify-content: flex-end;
 }
 
-header nav div ul li {
+header div ul li {
   list-style: none;
   padding: 5px;
 }
