@@ -1,28 +1,34 @@
-@import "variables";
+
 
 .principal{
     position: static;
 }
 
 .contactForm{
+    padding-top: 30px;
+    background-color:$Nav-email;
     position: absolute;
-    top: 4100px;
+    top: 3900px;
     left: 20px;
     margin: auto;
-    background-color:$Nav-email ;
     width: 90%;
     border-radius: 5%;
-    border: 2px solid red;
+    
     display: flex;
     flex-direction: column;
     text-align: center;
     div{
+        background-color:transparent;
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 12px;
+        p{
+            background-color:transparent;
+        }
     }
     input{
+        
         text-align: center;
         color: gray;
         padding: auto;
@@ -43,6 +49,6 @@
         width: 100%;
         height: 60px;
         font-size: 20px;
-        margin: 0 0 50px 0;
+        margin: 0 0 30px 0;
     } 
 }

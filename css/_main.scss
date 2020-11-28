@@ -1,7 +1,10 @@
+@import "variables";
 * {
     font-family: $font-openSans;
     /* ont-weight: 400, 700; */
-    background-color: hsl(218, 28%, 13%);
+}
+body{
+    background-color: $main-color;
 }
 
 .img {
