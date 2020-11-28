@@ -15,15 +15,6 @@ header {
   background-color: #1c2431;
 }
 
-header img .mountains {
-  position: static;
-}
-
-header img .mountains img .ilustracion {
-  position: relative;
-  top: 1px;
-}
-
 header div {
   display: -webkit-box;
   display: -ms-flexbox;
