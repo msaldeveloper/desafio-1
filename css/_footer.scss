@@ -1,6 +1,9 @@
 
 
+
+
 .pie-pagina{
+    
     background-color:$footer-color;
     padding:300px 10px 10px 10px ;
     img{
@@ -11,8 +14,10 @@
         padding-bottom: 20px;
     }
     section{
+        
         background-color:$footer-color;
         text-align: left;
+        
         li{
             padding-bottom: 10px;    
             padding-left: 10px;
@@ -52,4 +57,37 @@
     }
     
 
+}
+@media only screen and (min-width:768px){
+    section{
+        display: flex;
+        background-color:$footer-color;
+        text-align: left;
+        justify-content: center;
+        li{
+            padding-bottom: 10px;    
+            padding-left: 10px;
+            list-style: none;
+            background-color:$footer-color;
+        }
+        i{
+            display: flex;
+            padding:2px;
+            background-color:$footer-color;
+            
+
+        }
+
+        div{
+            background-color:$footer-color;
+            padding: 20px;
+            .contacto{
+                display: flex;
+                flex-direction: column;
+            }
+            
+        }
+        
+        
+    }
 }

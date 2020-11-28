@@ -254,6 +254,43 @@ body {
   background-color: #202a3c;
 }
 
+@media only screen and (min-width: 768px) {
+  .comments {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: 0px solid red;
+    margin: 50px 50px;
+  }
+  .comments .quotes {
+    width: 50px;
+    height: auto;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .features {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
 .principal {
   position: static;
 }
@@ -266,7 +303,7 @@ body {
   left: 20px;
   margin: auto;
   width: 90%;
-  border-radius: 5%;
+  border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -325,10 +362,10 @@ body {
     padding-top: 30px;
     background-color: #1c2431;
     position: absolute;
-    top: 3950px;
-    left: 40px;
+    top: 2500px;
+    left: 25%;
     margin: auto;
-    width: 90%;
+    width: 50%;
     border-radius: 5%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -402,5 +439,44 @@ body {
 .pie-pagina .social i {
   padding: 10px;
   background-color: #0b1523;
+}
+
+@media only screen and (min-width: 768px) {
+  section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #0b1523;
+    text-align: left;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  section li {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    list-style: none;
+    background-color: #0b1523;
+  }
+  section i {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 2px;
+    background-color: #0b1523;
+  }
+  section div {
+    background-color: #0b1523;
+    padding: 20px;
+  }
+  section div .contacto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
