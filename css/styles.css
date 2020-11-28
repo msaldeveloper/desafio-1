@@ -247,9 +247,6 @@ body {
 
 @media only screen and (min-width: 768px) {
   .comments {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     padding-bottom: 200px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -270,15 +267,6 @@ body {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
-  }
-  .features {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
   }
 }
 
@@ -353,7 +341,7 @@ body {
     padding-top: 30px;
     background-color: #1c2431;
     position: absolute;
-    top: 2500px;
+    top: 3600px;
     left: 25%;
     margin: auto;
     width: 50%;

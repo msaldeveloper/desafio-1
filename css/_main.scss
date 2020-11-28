@@ -165,7 +165,6 @@ body {
 }
 @media only screen and (min-width:768px){
     .comments {
-        justify-content: center;
         padding-bottom: 200px;
         display: flex;
         flex-direction: row;
@@ -183,11 +182,6 @@ body {
         }
     
      
-    }
-    .features {
-        justify-content: center;
-        
-        flex-direction: row;
     }
     
 }
