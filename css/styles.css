@@ -250,7 +250,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: #181f2a;
-  border: 1px solid red;
+  border: 0px solid red;
   margin: 50px 0px;
 }
 
