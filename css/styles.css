@@ -183,12 +183,6 @@ body {
 }
 
 /* ------------- */
-.quotes {
-  border: 1px solid red;
-  padding-left: 120px;
-  position: relative;
-}
-
 .comments {
   padding-bottom: 200px;
   display: -webkit-box;
@@ -198,11 +192,16 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   border: 0px solid red;
   margin: 50px 50px;
+}
+
+.comments .quotes {
+  width: 50px;
+  height: auto;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .comments-item {
