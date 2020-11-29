@@ -4,7 +4,6 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: white;
-  /* background-color: hsl(217, 28%, 15%); */
 }
 
 img {
@@ -72,10 +71,6 @@ body {
           align-items: center;
   border: 0px solid red;
   margin: 50px 50px;
-  background-image: url(images/bg-curvy-mobile.svg);
-}
-
-.img-main {
   background-image: url(images/bg-curvy-mobile.svg);
 }
 
