@@ -1,7 +1,21 @@
-.pie-pagina {
-
+footer {
     background-color: $footer-color;
-    padding: 300px 10px 10px 10px;
+    padding-top: 300px;
+    ;
+
+}
+
+img {
+
+    width: 230px;
+    height: auto;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.pie-pagina {
+    background-color: $footer-color;
+    padding: 0px 10px 10px 10px;
 
     img {
         background-color: $footer-color;
@@ -12,7 +26,6 @@
     }
 
     section {
-
         background-color: $footer-color;
         text-align: left;
 
@@ -61,24 +74,142 @@
 }
 
 @media only screen and (min-width:768px) {
-    section {
-        display: flex;
+    footer {
         background-color: $footer-color;
-        text-align: left;
-        justify-content: center;
+        padding-top: 130px;
 
-        li {
-            padding-bottom: 10px;
-            padding-left: 10px;
-            list-style: none;
-            background-color: $footer-color;
+    }
+
+    img {
+        width: 130px;
+        height: auto;
+        padding-left: 40px;
+        padding-bottom: 20px;
+    }
+
+    .pie-pagina {
+        display: flex;
+
+
+        padding: 0px 10px 10px 10px;
+
+
+
+        section {
+            display: flex;
+
+            .contact-info {
+                display: flex;
+
+            }
+
+
+
+            i {
+                display: flex;
+                padding: 2px;
+
+
+
+            }
+
+            li {
+                text-decoration: none;
+                text-align: left;
+                ;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                list-style: none;
+
+            }
+
+            div {
+                background-color: $footer-color;
+                padding: 20px;
+
+                .contacto {
+                    display: flex;
+                    flex-direction: column;
+                }
+
+            }
+
+
         }
+
+        .social {
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+
+            i {
+                padding: 10px;
+                background-color: $footer-color;
+
+            }
+        }
+
+
+    }
+
+}
+
+@media only screen and (min-width:1024px) {
+    footer {
+        background-color: $footer-color;
+        padding-top: 130px;
+
+    }
+
+    img {
+        width: 200px;
+        height: auto;
+        padding-left: 60px;
+        padding-bottom: 20px;
+    }
+
+    .pie-pagina {
+        display: flex;
+
+
+        padding: 0px 30px 10px 30px;
+
+
+
+        section {
+
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .contact-info {
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+
+            ul.size {
+                width: 45%;
+            }
+
+        }
+
+
 
         i {
             display: flex;
             padding: 2px;
-            background-color: $footer-color;
 
+
+
+        }
+
+        li {
+            text-decoration: none;
+            text-align: left;
+            ;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            list-style: none;
 
         }
 
@@ -94,6 +225,20 @@
         }
 
 
-
     }
+
+    .social {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+
+        i {
+            padding: 10px;
+            background-color: $footer-color;
+
+        }
+    }
+
+
 }
+

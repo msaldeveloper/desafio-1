@@ -122,14 +122,11 @@ body {
   background-color: #181f2a;
 }
 
-<<<<<<< HEAD
-=======
 .img-main {
   background-image: url(images/bg-curvy-mobile.svg);
   background-color: #181f2a;
 }
 
->>>>>>> 1232518693d3f19795bc9461260eac9e28708bfd
 .intro h2 {
   padding: 50px 0px 25px 0px;
   text-align: center;
@@ -434,9 +431,21 @@ body {
         text-align: center;
     }
 } */
+footer {
+  background-color: #0b1523;
+  padding-top: 300px;
+}
+
+img {
+  width: 230px;
+  height: auto;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+
 .pie-pagina {
   background-color: #0b1523;
-  padding: 300px 10px 10px 10px;
+  padding: 0px 10px 10px 10px;
 }
 
 .pie-pagina img {
@@ -498,34 +507,50 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  section {
+  footer {
+    background-color: #0b1523;
+    padding-top: 130px;
+  }
+  img {
+    width: 130px;
+    height: auto;
+    padding-left: 40px;
+    padding-bottom: 20px;
+  }
+  .pie-pagina {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background-color: #0b1523;
-    text-align: left;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    padding: 0px 10px 10px 10px;
   }
-  section li {
-    padding-bottom: 10px;
-    padding-left: 10px;
-    list-style: none;
-    background-color: #0b1523;
+  .pie-pagina section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
-  section i {
+  .pie-pagina section .contact-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .pie-pagina section i {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     padding: 2px;
-    background-color: #0b1523;
   }
-  section div {
+  .pie-pagina section li {
+    text-decoration: none;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    list-style: none;
+  }
+  .pie-pagina section div {
     background-color: #0b1523;
     padding: 20px;
   }
-  section div .contacto {
+  .pie-pagina section div .contacto {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -533,6 +558,97 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .pie-pagina .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 10px;
+  }
+  .pie-pagina .social i {
+    padding: 10px;
+    background-color: #0b1523;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  footer {
+    background-color: #0b1523;
+    padding-top: 130px;
+  }
+  img {
+    width: 200px;
+    height: auto;
+    padding-left: 60px;
+    padding-bottom: 20px;
+  }
+  .pie-pagina {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0px 30px 10px 30px;
+  }
+  .pie-pagina section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .pie-pagina .contact-info {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .pie-pagina .contact-info ul.size {
+    width: 45%;
+  }
+  .pie-pagina i {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 2px;
+  }
+  .pie-pagina li {
+    text-decoration: none;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    list-style: none;
+  }
+  .pie-pagina div {
+    background-color: #0b1523;
+    padding: 20px;
+  }
+  .pie-pagina div .contacto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 10px;
+  }
+  .social i {
+    padding: 10px;
+    background-color: #0b1523;
   }
 }
 /*# sourceMappingURL=styles.css.map */
