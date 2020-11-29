@@ -599,6 +599,9 @@ img {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+  .pie-pagina section.section-2-size {
+    width: 500px;
+  }
   .pie-pagina .contact-info {
     width: 80%;
     display: -webkit-box;

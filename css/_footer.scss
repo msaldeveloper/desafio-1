@@ -177,9 +177,13 @@ img {
 
 
         section {
-
             display: flex;
             justify-content: space-between;
+            
+
+        }
+        section.section-2-size {
+            width: 500px;
         }
 
         .contact-info {
