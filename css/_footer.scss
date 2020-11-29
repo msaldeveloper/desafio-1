@@ -1,93 +1,99 @@
+.pie-pagina {
 
+    background-color: $footer-color;
+    padding: 300px 10px 10px 10px;
 
-
-
-.pie-pagina{
-    
-    background-color:$footer-color;
-    padding:300px 10px 10px 10px ;
-    img{
-        background-color:$footer-color;
-        width: 220px; 
+    img {
+        background-color: $footer-color;
+        width: 220px;
         height: auto;
-        padding-left:20px;
+        padding-left: 20px;
         padding-bottom: 20px;
     }
-    section{
-        
-        background-color:$footer-color;
+
+    section {
+
+        background-color: $footer-color;
         text-align: left;
-        
-        li{
-            padding-bottom: 10px;    
+
+        li {
+            padding-bottom: 10px;
             padding-left: 10px;
             list-style: none;
-            background-color:$footer-color;
+            background-color: $footer-color;
         }
-        i{
+
+        i {
             display: flex;
-            padding:2px;
-            background-color:$footer-color;
-            
+            padding: 2px;
+            background-color: $footer-color;
+
 
         }
 
-        div{
-            background-color:$footer-color;
+        div {
+            background-color: $footer-color;
             padding: 20px;
-            .contacto{
+
+            .contacto {
                 display: flex;
                 flex-direction: column;
             }
-            
+
         }
-        
-        
+
+
     }
 
-    .social{
+    .social {
         display: flex;
         justify-content: center;
         margin: 10px;
-        i{
-            padding:10px;
-            background-color:$footer-color;
-            
+
+        i {
+            padding: 10px;
+            background-color: $footer-color;
+
         }
     }
-    
+
 
 }
-@media only screen and (min-width:768px){
-    section{
+
+@media only screen and (min-width:768px) {
+    section {
         display: flex;
-        background-color:$footer-color;
+        background-color: $footer-color;
         text-align: left;
         justify-content: center;
-        li{
-            padding-bottom: 10px;    
+
+        li {
+            padding-bottom: 10px;
             padding-left: 10px;
             list-style: none;
-            background-color:$footer-color;
+            background-color: $footer-color;
         }
-        i{
+
+        i {
             display: flex;
-            padding:2px;
-            background-color:$footer-color;
-            
+            padding: 2px;
+            background-color: $footer-color;
+
 
         }
 
-        div{
-            background-color:$footer-color;
+        div {
+            background-color: $footer-color;
             padding: 20px;
-            .contacto{
+
+            .contacto {
                 display: flex;
                 flex-direction: column;
             }
-            
+
         }
-        
-        
+
+
+
     }
 }
