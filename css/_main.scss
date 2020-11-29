@@ -11,24 +11,52 @@ body {
     max-width: 100%;
 }
 
-/* ------------- */
+/* ---MAIN CONTAINER--- */
+/* .main-container {
+    display: flex;
+    flex-direction: column;
+} */
+
+
+/* ---SECTION INTRO--- */
+
+.main {
+    /* justify-content: center; */
+    /* align-content: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $main-color;
+}
+
 .intro {
     display: flex;
     flex-direction: column;
     align-items: center;
     border: 0px solid red;
-    margin: 50px 50px;
+    width: 90%;
+    margin: 0px 0px;
     background-image: url(images/bg-curvy-mobile.svg);
+    background-color: $main-color;
 }
 
+<<<<<<< HEAD
 
+=======
+.img-main {
+    background-image: url(images/bg-curvy-mobile.svg);
+    background-color: $main-color;
+}
+>>>>>>> 1232518693d3f19795bc9461260eac9e28708bfd
 
 .intro h2 {
     padding: 50px 0px 25px 0px;
+    text-align: center;
 }
 
 .intro h3 {
     padding: 0px 0px 50px 0px;
+    text-align: center;
 }
 
 .intro button {
@@ -41,7 +69,7 @@ body {
     margin: 0 0 50px 0;
 }
 
-/* ------------- */
+/* ---FEATURES LIST--- */
 
 .features {
     display: flex;
@@ -49,6 +77,8 @@ body {
     align-items: center;
     border: 0px solid red;
     margin: 50px 50px;
+    background-color: $main-color;
+
 }
 
 .feature-article {
@@ -73,54 +103,60 @@ body {
     text-align: center;
 }
 
-/* ------------- */
+/* ---SECTION MAIN FEATURE--- */
+
 .main-feature {
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
+    border: 0px solid green;
+    width: 80%;
+    background-color: $main-color;
+}
+
+.img-feature {
+    background-color: $main-color;
+    border: 0px solid red;
+}
+
+.main-feature-text {
+    background-color: $main-color;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    border: 0px solid red;
-    margin: 50px 50px;
 }
 
 .main-feature h2 {
-    padding: 30px 0;
-    text-align: center;
+    border: 0px solid yellow;
+    padding-top: 20px;
 }
 
-.main-feature h3 {
-    padding: 30px 0;
-    text-align: center;
+.main-feature h5 {
+    border: 0px solid red;
+    padding: 20px 0;
 }
 
 .main-feature a {
+    border: 0px solid red;
     color: hsl(176, 68%, 64%);
     font-weight: bold;
+    background-color: $main-color;
 }
 
-/* ------------- */
-
-
-
-
+/* --- SECTION COMMENTS --- */
 
 .comments {
     padding-bottom: 200px;
     display: flex;
     flex-direction: column;
-    
+    background-color: $main-color;    
     border: 0px solid red;
-    margin: 50px 50px;
+    margin: 50px 0px;
     
     .quotes {
         width: 50px;
         height: auto;
         align-items: flex-end;
-
-        ;
-    
     }
-
- 
 }
 
 .comments-item {
@@ -131,21 +167,25 @@ body {
     max-width: 350px;
     margin: 20px 20px;
     background-color: hsl(219, 30%, 18%);
-    padding: 30px 20px;
+    padding: 20px 20px 10px 20px;
 }
 
 .container-id {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     align-items: center;
     border: 0px solid red;
-    padding: 15px 0;
+    /* padding: 15px 0; */
     background-color: transparent;
 }
 
 .pic-profile {
     background-color: hsl(219, 30%, 18%);
     border: 0px solid rgb(229, 238, 52);
+    padding: 20px;
+}
+
+.pic-image {
     border-radius: 80px;
     width: 50px;
 }
@@ -153,32 +193,59 @@ body {
 .name {
     border: 0px solid rgb(229, 238, 52);
     background-color: hsl(219, 30%, 18%);
-    padding-left: 15px;
+    padding-left: 0px;
 }
 
 .name h5 {
     border: 0px solid rgb(229, 238, 52);
     background-color: hsl(219, 30%, 18%);
 }
+
+/* --- RESPONSIVE @MEDIA VARIABLES --- */
+
 @media only screen and (min-width:768px){
+    .features {
+        flex-direction: unset;
+        flex-wrap: wrap;    
+    }
+
     .comments {
-        padding-bottom: 200px;
-        display: flex;
+        border: 0px solid pink;
         flex-direction: row;
         align-items: center;
-        border: 0px solid red;
-        margin: 50px 50px;
-        
+
         .quotes {
-            width: 50px;
-            height: auto;
-            align-items: flex-end;
-    
-            ;
-        
+            
         }
-    
-     
     }
     
+    .comments-item {
+        border: 0px solid green;
+        border-radius: 10px;
+        max-width: 350px;
+    }
+
+    .container-id {
+        border: 0px solid purple;
+        padding: 0;
+    }
+
+    .pic-profile {
+        /* background-color: hsl(219, 30%, 18%); */
+        border: 0px solid rgb(229, 238, 52);
+        padding: 0;
+    }
+
+    .pic-image {
+        border: 0px solid green;
+        border-radius: 80px;
+        size: 200px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .name {
+        padding-left: 15px;
+    }
+
 }
