@@ -49,17 +49,23 @@ body {
 }
 
 .intro h3 {
-    padding: 0px 0px 50px 0px;
+    font-size: .87em;
+    font-weight: lighter;
+    padding: 30px 0px 50px 0px;
     text-align: center;
+    p{
+        padding: 3px;
+    }
 }
 
 .intro button {
+    font-weight: bold;
     border: 0px solid blue;
     background-color: hsl(198, 60%, 50%);
     border-radius: 30px;
-    width: 350px;
-    height: 60px;
-    font-size: 20px;
+    width: 280px;
+    height: 58px;
+    font-size: 18px;
     margin: 0 0 50px 0;
 }
 
@@ -82,9 +88,10 @@ body {
     padding: 30px 25px;
     width: 300px;
     border: 0px solid green;
+       
 }
 
-.feature-title {
+.feature-title {;
     border: 0px solid purple;
     text-align: center;
     padding: 25px 0;
@@ -111,6 +118,7 @@ body {
 .img-feature {
     background-color: $main-color;
     border: 0px solid red;
+
 }
 
 .main-feature-text {
@@ -125,14 +133,17 @@ body {
 }
 
 .main-feature h5 {
+   
+    font-weight: lighter;
     border: 0px solid red;
     padding: 20px 0;
 }
 
 .main-feature a {
-    border: 0px solid red;
+    font-size: 13px;
+    font-weight: lighter;
+    border: px solid red;
     color: hsl(176, 68%, 64%);
-    font-weight: bold;
     background-color: $main-color;
 }
 
@@ -147,7 +158,8 @@ body {
     margin: 50px 0px;
     
     .quotes {
-        width: 50px;
+        margin-left: 23px;
+        width: 25px;
         height: auto;
         align-items: flex-end;
     }
@@ -159,7 +171,7 @@ body {
     border: 0px solid green;
     border-radius: 10px;
     max-width: 350px;
-    margin: 20px 20px;
+    margin: 0 20px 20px;
     background-color: hsl(219, 30%, 18%);
     padding: 20px 20px 10px 20px;
 }

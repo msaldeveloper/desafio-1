@@ -157,17 +157,24 @@ body {
 }
 
 .intro h3 {
-  padding: 0px 0px 50px 0px;
+  font-size: .87em;
+  font-weight: lighter;
+  padding: 30px 0px 50px 0px;
   text-align: center;
 }
 
+.intro h3 p {
+  padding: 3px;
+}
+
 .intro button {
+  font-weight: bold;
   border: 0px solid blue;
   background-color: #339ecc;
   border-radius: 30px;
-  width: 350px;
-  height: 60px;
-  font-size: 20px;
+  width: 280px;
+  height: 58px;
+  font-size: 18px;
   margin: 0 0 50px 0;
 }
 
@@ -251,14 +258,16 @@ body {
 }
 
 .main-feature h5 {
+  font-weight: lighter;
   border: 0px solid red;
   padding: 20px 0;
 }
 
 .main-feature a {
-  border: 0px solid red;
+  font-size: 13px;
+  font-weight: lighter;
+  border: px solid red;
   color: #65e2d9;
-  font-weight: bold;
   background-color: #181f2a;
 }
 
@@ -278,7 +287,8 @@ body {
 }
 
 .comments .quotes {
-  width: 50px;
+  margin-left: 23px;
+  width: 25px;
   height: auto;
   -webkit-box-align: end;
       -ms-flex-align: end;
@@ -296,7 +306,7 @@ body {
   border: 0px solid green;
   border-radius: 10px;
   max-width: 350px;
-  margin: 20px 20px;
+  margin: 0 20px 20px;
   background-color: #202a3c;
   padding: 20px 20px 10px 20px;
 }
