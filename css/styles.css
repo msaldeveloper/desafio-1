@@ -28,6 +28,10 @@ header {
           justify-content: space-between;
 }
 
+header nav {
+  padding-bottom: 20px;
+}
+
 header nav div {
   display: -webkit-box;
   display: -ms-flexbox;
