@@ -854,4 +854,94 @@ footer img {
   padding: 10px;
   background-color: #0b1523;
 }
+
+@media only screen and (min-width: 768px) {
+  footer {
+    background-color: #0b1523;
+    padding-top: 200px;
+  }
+  footer img {
+    width: 200px;
+    height: auto;
+    padding-left: 60px;
+    padding-bottom: 20px;
+  }
+  .pie-pagina {
+    background-color: #0b1523;
+    padding: 0px 60px 10px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .pie-pagina section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #0b1523;
+    text-align: left;
+  }
+  .pie-pagina section .contact-info {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 65px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .pie-pagina section .size {
+    width: 45%;
+  }
+  .pie-pagina section li {
+    font-weight: normal;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    list-style: none;
+    background-color: #0b1523;
+  }
+  .pie-pagina section i {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 2px;
+    background-color: #0b1523;
+  }
+  .pie-pagina section div {
+    background-color: #0b1523;
+    padding: 0 20px 20px 0;
+  }
+  .pie-pagina section div .contacto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .pie-pagina .section-2-size {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 50%;
+    margin-right: 20px;
+  }
+  .pie-pagina .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 10px;
+  }
+  .pie-pagina .social i {
+    padding: 10px;
+    background-color: #0b1523;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
