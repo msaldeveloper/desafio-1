@@ -396,18 +396,22 @@ body {
     position: static;
 } */
 .contactForm {
-  padding-top: 30px;
+  padding: 30px 0 10px 0;
   background-color: #1c2431;
   /* top: 300px; */
-  left: 20px;
+  left: 10px;
   margin: auto;
-  width: 90%;
+  width: 95%;
   border-radius: 10px;
   text-align: center;
 }
 
+.contactForm p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
 .contactForm div {
-  background-color: transparent;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -422,7 +426,8 @@ body {
 }
 
 .contactForm div p {
-  background-color: transparent;
+  font-weight: lighter;
+  font-size: 15px;
 }
 
 .contactForm input {
@@ -432,9 +437,9 @@ body {
   border: 1px solid white;
   background-color: white;
   border-radius: 30px;
-  width: 100%;
-  height: 60px;
-  font-size: 20px;
+  width: 90%;
+  height: 45px;
+  font-size: 15px;
   margin: 0 0 20px 0;
 }
 
@@ -443,9 +448,10 @@ body {
   padding: 10px;
   background-color: #339ecc;
   border-radius: 30px;
-  width: 100%;
-  height: 60px;
-  font-size: 20px;
+  width: 90%;
+  height: 45px;
+  font-size: 15px;
+  font-weight: bold;
   margin: 0 0 30px 0;
 }
 
