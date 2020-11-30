@@ -502,6 +502,7 @@ footer img {
 }
 
 .pie-pagina section li {
+  font-weight: normal;
   padding-bottom: 10px;
   padding-left: 10px;
   list-style: none;
