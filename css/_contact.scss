@@ -44,7 +44,7 @@
         margin: 0 0 20px 0;
         
     }
-    button {
+    button{
         border:1px hsl(198, 60%, 50%);
         padding: 10px;
         background-color: hsl(198, 60%, 50%);
@@ -55,6 +55,10 @@
         font-weight: bold;
         margin: 0 0 30px 0;
     } 
+    button:hover{
+        background-color:hsl(224, 83%, 42%) 
+
+    }
 }
 @media only screen and (min-width:768px) {
     .contactForm{

@@ -64,6 +64,21 @@ header nav div ul li {
   padding: 7px;
 }
 
+header nav div ul li a {
+  text-decoration: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(currentColor), to(currentColor));
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  -webkit-transition: background-size .3s;
+  transition: background-size .3s;
+}
+
+header nav div ul li a:hover, header nav div ul li a:focus {
+  background-size: 100% 2px;
+}
+
 header section img {
   padding: 0 20px 0 20px;
 }
@@ -139,6 +154,7 @@ header section h2 {
     width: 500px;
   }
   header section h2 {
+    width: 400px;
     padding-top: 20px;
     text-align: center;
   }
@@ -247,6 +263,10 @@ body {
   height: 58px;
   font-size: 18px;
   margin: 0 0 50px 0;
+}
+
+.intro button:hover {
+  background-color: #1242c4;
 }
 
 /* ---FEATURES LIST--- */
@@ -703,6 +723,10 @@ body {
   font-size: 15px;
   font-weight: bold;
   margin: 0 0 30px 0;
+}
+
+.contactForm button:hover {
+  background-color: #1242c4;
 }
 
 @media only screen and (min-width: 768px) {

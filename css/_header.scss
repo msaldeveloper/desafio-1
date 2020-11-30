@@ -40,6 +40,20 @@ header {
                     list-style: none;
                     padding: 7px;
 
+                    a {
+                        text-decoration: none;
+                        background-image: linear-gradient(currentColor, currentColor);
+                        background-position: 0% 100%;
+                        background-repeat: no-repeat;
+                        background-size: 0% 2px;
+                        transition: background-size .3s;
+                    }
+                    
+                    a:hover, a:focus {
+                        background-size: 100% 2px;
+                    }
+
+
                 }
 
             }
@@ -127,7 +141,7 @@ header {
             }
 
             h2 {
-               
+                width: 400px;
                 padding-top: 20px;
                 text-align: center;
             }
