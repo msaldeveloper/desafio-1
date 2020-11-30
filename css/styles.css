@@ -701,6 +701,12 @@ body {
 }
 
 .contactForm form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   color: gray;
   padding: auto;
@@ -711,6 +717,15 @@ body {
   height: 45px;
   font-size: 15px;
   margin: 0 10px 20px 0;
+}
+
+.contactForm form input {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-color: transparent;
+  width: 95%;
+  margin-left: 1px;
 }
 
 .contactForm button {

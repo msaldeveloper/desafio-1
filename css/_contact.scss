@@ -31,7 +31,8 @@
         }
     }
     form{
-        
+        display: flex;
+        align-items: center;
         text-align: center;
         color: gray;
         padding: auto;
@@ -42,6 +43,12 @@
         height: 45px;
         font-size: 15px;
         margin: 0 10px 20px 0;
+        input{
+            align-items: center;
+            border-color: transparent;
+            width: 95%;
+            margin-left: 1px;
+        }
         
     }
     button{
