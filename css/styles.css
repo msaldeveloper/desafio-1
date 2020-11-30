@@ -700,17 +700,17 @@ body {
   font-size: 15px;
 }
 
-.contactForm input {
+.contactForm form {
   text-align: center;
   color: gray;
   padding: auto;
   border: 1px solid white;
   background-color: white;
   border-radius: 30px;
-  width: 90%;
+  width: 60%;
   height: 45px;
   font-size: 15px;
-  margin: 0 0 20px 0;
+  margin: 0 10px 20px 0;
 }
 
 .contactForm button {
@@ -876,7 +876,10 @@ footer img {
 
 .pie-pagina .social i {
   padding: 10px;
-  background-color: #0b1523;
+}
+
+.pie-pagina .social i:hover {
+  color: aqua;
 }
 
 @media only screen and (min-width: 768px) {
