@@ -1,35 +1,57 @@
-
-
 header {
+    display: flex;
+    flex-direction: column;
+
     background-color: $Nav-email;
+    padding-bottom: 40px;
+    background-size: contain;
+    background-position: bottom;
+    background-image: url(../images/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;
+    justify-content: space-between;
 
-
+   
     nav {
-        
-        }
+
         div {
             display: flex;
             justify-content: space-between;
+    
+    
+    
+    
+    
+    
             img {
-                margin: 15px;
-                width: 90px;
+                padding: 10px;
+                margin: 10px;
+                width: 150px;
                 height: auto;
             }
-
+    
             ul {
+                padding-top: 5px;
                 margin: 15px;
                 display: flex;
                 justify-content: flex-end;
-
+    
                 li {
                     list-style: none;
                     padding: 5px;
-
-                }
-
-            }
-            
-        }
     
+                }
+    
+            }
+    
+        }
+    }
+    section{
+        h2{
+            margin: 0 10px 0 10px;
+            text-align: center;
+        }
+        
+    }
 
 }
+

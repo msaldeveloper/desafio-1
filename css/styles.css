@@ -11,10 +11,25 @@ img {
 }
 
 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: #1c2431;
+  padding-bottom: 40px;
+  background-size: contain;
+  background-position: bottom;
+  background-image: url(../images/bg-curvy-mobile.svg);
+  background-repeat: no-repeat;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-header div {
+header nav div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -23,13 +38,15 @@ header div {
           justify-content: space-between;
 }
 
-header div img {
-  margin: 15px;
-  width: 90px;
+header nav div img {
+  padding: 10px;
+  margin: 10px;
+  width: 150px;
   height: auto;
 }
 
-header div ul {
+header nav div ul {
+  padding-top: 5px;
   margin: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -39,9 +56,14 @@ header div ul {
           justify-content: flex-end;
 }
 
-header div ul li {
+header nav div ul li {
   list-style: none;
   padding: 5px;
+}
+
+header section h2 {
+  margin: 0 10px 0 10px;
+  text-align: center;
 }
 
 .main-container {
@@ -436,7 +458,7 @@ footer {
   padding-top: 300px;
 }
 
-img {
+footer img {
   width: 230px;
   height: auto;
   padding-left: 40px;

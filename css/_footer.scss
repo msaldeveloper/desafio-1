@@ -2,16 +2,17 @@ footer {
     background-color: $footer-color;
     padding-top: 300px;
     ;
+    img {
+
+        width: 230px;
+        height: auto;
+        padding-left: 40px;
+        padding-bottom: 20px;
+    }
 
 }
 
-img {
 
-    width: 230px;
-    height: auto;
-    padding-left: 40px;
-    padding-bottom: 20px;
-}
 
 .pie-pagina {
     background-color: $footer-color;
